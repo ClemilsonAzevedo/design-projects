@@ -18,6 +18,6 @@ export function hoursOfTheDay() {
 
 
   return (
-    <span>{time.format('HH:mm:ss')}</span>
+    <span className='w-full'>{time.format('HH:mm:ss')}</span>
   )
 }
