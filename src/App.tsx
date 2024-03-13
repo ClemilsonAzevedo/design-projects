@@ -1,8 +1,14 @@
+import { Header } from "./components/Header";
+import { Home } from "./pages/Home";
+import { Footer } from "./components/Footer";
+
 export function App() {
 
   return (
-    <>
-      <h1 className="text-xl text-red-600">Hello World</h1>
-    </>
+    <main>
+      <Header />
+      <Home />
+      <Footer />
+    </main>
   )
 }
