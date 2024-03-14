@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
 import { hoursOfTheDay } from "@/utils/hoursOfTheDay";
-import { FolderOpen, Github, Home, X } from "lucide-react";
+import { Calendar, Clock, FolderOpen, Github, Home, X } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { SwitchThemeMode } from "./SwitchThemeMode";
 
@@ -12,7 +12,7 @@ export function Header() {
     <div className="flex w-full justify-center items-center relative z-20">
       <header className="flex items-center justify-center font-medium gap-5 w-full">
 
-        <span>{date}</span>
+        <span className="flex items-center gap-2"><Calendar size={20} />{date}</span>
 
         <nav className="py-4 px-5 rounded-full bg-neutral-950 dark:bg-neutral-100 flex items-center justify-center gap-4 text-neutral-50 dark:text-neutral-950">
           <a href="#home" target="_self" className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 ">
@@ -43,7 +43,7 @@ export function Header() {
           </a>
         </nav>
 
-        <div className="w-[63px]">{hoursOfTheDay()}</div>
+        <div className="flex items-center justify-center gap-2"><Clock size={20} /><span className="w-16">{hoursOfTheDay()}</span></div>
       </header>
       <SwitchThemeMode />
     </div>
