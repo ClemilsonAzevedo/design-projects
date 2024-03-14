@@ -14,9 +14,9 @@ export function Header() {
 
         <span>{date}</span>
 
-        <nav className="py-4 px-5 rounded-full bg-neutral-950 dark:bg-neutral-50 flex items-center justify-center gap-4 text-neutral-50 dark:text-neutral-950">
-          <li className="list-none p-2 hover:bg-neutral-800/70 rounded-full hover:scale-125 transition"><Home size={24} /></li>
-          <li className="list-none p-2 hover:bg-neutral-800/70 rounded-full hover:scale-125 transition"><FolderOpen size={24} /></li>
+        <nav className="py-4 px-5 rounded-full bg-neutral-950 dark:bg-neutral-100 flex items-center justify-center gap-4 text-neutral-50 dark:text-neutral-950">
+          <li className="list-none p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 transition"><Home size={24} /></li>
+          <li className="list-none p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 transition"><FolderOpen size={24} /></li>
           <li className="list-none">
             <Avatar className="rounded-full h-10 w-10">
               <AvatarImage
@@ -25,8 +25,8 @@ export function Header() {
               <AvatarFallback>C.A</AvatarFallback>
             </Avatar>
           </li>
-          <li className="list-none p-2 hover:bg-neutral-800/70 rounded-full hover:scale-125 transition"><X size={24} /></li>
-          <li className="list-none p-2 hover:bg-neutral-800/70 rounded-full hover:scale-125 transition"><Github size={24} /></li>
+          <li className="list-none p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 transition"><X size={24} /></li>
+          <li className="list-none p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 transition"><Github size={24} /></li>
         </nav>
 
         <div>{hoursOfTheDay()}</div>
