@@ -1,9 +1,9 @@
 import { Project } from "@/components/Project";
 
-export function Home() {
+export function ProjectsPresentation() {
 
   return (
-    <section className="overflow-y-scroll h-full w-full flex flex-col items-center scroll-smooth justify-center text-neutral-950 dark:text-neutral-200 z-20">
+    <section className="z-20 overflow-y-auto h-full w-full flex flex-col items-center justify-center scroll-smooth text-neutral-950 dark:text-neutral-200">
 
       <Project />
       <Project />
@@ -12,7 +12,6 @@ export function Home() {
       <Project />
       <Project />
       <Project />
-
     </section>
   )
 }

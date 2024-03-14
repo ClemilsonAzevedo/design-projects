@@ -11,8 +11,8 @@ export function Project() {
       <Separator className="bg-neutral-500 h-5" orientation="vertical" />
       <span >2024</span>
       <Separator className="bg-neutral-500 h-5" orientation="vertical" />
-      <a href="#" className="size-6 hover:scale-125 "><Github /></a>
-      <a href="#" className="size-6 hover:scale-125 "><Figma /></a>
+      <a href="#" className="size-6 hover:scale-150 "><Github /></a>
+      <a href="#" className="size-6 hover:scale-150 "><Figma /></a>
     </div>
   )
 }
