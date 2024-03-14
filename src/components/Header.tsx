@@ -1,8 +1,8 @@
-import { Switch } from "./ui/switch";
 import dayjs from "dayjs";
 import { hoursOfTheDay } from "@/utils/hoursOfTheDay";
-import { FolderOpen, Github, Home, X, Moon } from "lucide-react";
+import { FolderOpen, Github, Home, X } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { SwitchThemeMode } from "./SwitchThemeMode";
 
 export function Header() {
 
@@ -33,10 +33,7 @@ export function Header() {
 
       </header>
 
-      <div className="absolute right-4 top-6 flex items-center gap-2">
-        <Switch id='themeMode' />
-        <label htmlFor="themeMode"><Moon /></label>
-      </div>
+      <SwitchThemeMode />
     </div>
   )
 }
