@@ -18,7 +18,7 @@ export function Header() {
           <li className="list-none p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 transition"><Home size={24} /></li>
           <li className="list-none p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 transition"><FolderOpen size={24} /></li>
           <li className="list-none">
-            <Avatar className="rounded-full h-10 w-10 p-1 bg-primary-foreground">
+            <Avatar className="rounded-full h-10 w-10 p-1 bg-primary-foreground text-foreground font-bold">
               <AvatarImage
                 src="https://github.com/clemilsonazevedo.png"
                 alt="@ClemilsonAzevedo"
