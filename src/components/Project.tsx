@@ -1,18 +1,30 @@
 import { Figma, Github } from "lucide-react";
 import { Separator } from "./ui/separator";
 
-export function Project() {
+interface ProjectProps {
+  ProjectName: string;
+  ProjectType: string;
+  ProjectDoneDate: number;
+  ProjectRepository?: string;
+  ProjectDesign: string
+}
+
+export function Project({ ProjectDesign, ProjectDoneDate, ProjectName, ProjectType, ProjectRepository }: ProjectProps) {
 
   return (
-    <div className="flex gap-2 items-center p-4 rounded-lg text-lg hover:bg-neutral-300/70 dark:hover:bg-neutral-800/70  ">
-      <span className="font-semibold ">Dany Cakes</span>
+    <div className="flex min-w-full gap-2 items-center p-4 my-1 rounded-lg text-base hover:bg-neutral-300/70 dark:hover:bg-neutral-800/70 justify-center ">
+      <span className="font-semibold ">{ProjectName}</span>
       <Separator className="bg-neutral-500 w-40" />
-      <span >Mobile Design</span>
+      <span >{ProjectType}</span>
       <Separator className="bg-neutral-500 h-5" orientation="vertical" />
-      <span >2024</span>
+      <span >{ProjectDoneDate}</span>
       <Separator className="bg-neutral-500 h-5" orientation="vertical" />
-      <a href="#" className="size-6 hover:scale-150 "><Github /></a>
-      <a href="#" className="size-6 hover:scale-150 "><Figma /></a>
+
+      {
+        ProjectRepository && <a href={ProjectRepository} target="_blank" className="size-6 hover:scale-125"><Github /></a>
+      }
+
+      <a href={ProjectDesign} target="_blank" className="size-6 hover:scale-125"><Figma /></a>
     </div>
   )
 }
