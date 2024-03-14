@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 export function LineAnimateBackground() {
   return (
     <svg
-      className="absolute z-10 w-full h-auto inset-0"
+      className="absolute z-10 w-full h-full inset-0"
       id="hero"
       width="1217"
       height="688"
