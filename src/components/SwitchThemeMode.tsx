@@ -31,8 +31,8 @@ export function SwitchThemeMode() {
 
   return (
     <div className="absolute right-4 top-6 flex items-center gap-2">
-      <Switch className="transition" onClick={toggleThemeMode} id="themeMode" />
-      <label className="transition" htmlFor="themeMode">{theme}</label>
+      <Switch onClick={toggleThemeMode} id="themeMode" />
+      <label htmlFor="themeMode">{theme}</label>
     </div>
   )
 }
