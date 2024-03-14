@@ -10,7 +10,7 @@ export function Header() {
 
   return (
     <div className="flex w-full justify-center items-center relative z-20">
-      <header className="flex items-center justify-center gap-5 font-medium">
+      <header className="flex items-center justify-center font-medium gap-5 w-full">
 
         <span>{date}</span>
 
@@ -31,10 +31,9 @@ export function Header() {
           <li className="list-none p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 "><Github size={24} /></li>
         </nav>
 
-        <div>{hoursOfTheDay()}</div>
+        <div className="w-[63px]">{hoursOfTheDay()}</div>
 
       </header>
-
       <SwitchThemeMode />
     </div>
   )
