@@ -15,11 +15,11 @@ export function Header() {
         <span className="flex items-center gap-2"><Calendar size={20} />{date}</span>
 
         <nav className="py-4 px-5 rounded-full bg-neutral-950 dark:bg-neutral-100 flex items-center justify-center gap-4 text-neutral-50 dark:text-neutral-950">
-          <a href="#home" target="_self" className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 ">
+          <a href="/home" target="_self" className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 ">
             <Home size={24} />
           </a>
 
-          <a href="#projects" target="_self" className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 ">
+          <a href="/projects" target="_self" className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 ">
             <FolderOpen size={24} />
           </a>
 
