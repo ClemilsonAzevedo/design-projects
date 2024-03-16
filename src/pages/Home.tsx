@@ -20,7 +20,29 @@ export function Home() {
         ProjectRepository="#"
       />
 
+      <Project
+        ProjectName="Dany Cakes"
+        ProjectType="Mobile Design"
+        ProjectDoneDate={2024}
+        ProjectDesign="#"
+        ProjectRepository=""
+      />
 
+      <Project
+        ProjectName="Dany Cakes"
+        ProjectType="Mobile Design"
+        ProjectDoneDate={2024}
+        ProjectDesign="#"
+        ProjectRepository=""
+      />
+
+      <Project
+        ProjectName="Login Template"
+        ProjectType="Desktop Design"
+        ProjectDoneDate={2020}
+        ProjectDesign="#"
+        ProjectRepository="#"
+      />
     </section>
   )
 }
