@@ -69,6 +69,8 @@
 @layer base {
   * {
     @apply border-border;
+    @apply transition;
+    @apply duration-75;
     font-family: "Poppins", sans-serif;
   }
 

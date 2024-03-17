@@ -3,7 +3,7 @@ import { Presentation } from "@/components/Presentation";
 export function Projects() {
 
   return (
-    <section className="z-20 w-full mt-5 grid grid-cols-3 gap-5 p-5">
+    <section className="z-20 overflow-y-auto overflow-x-hidden w-full grid grid-cols-3 gap-5">
       <Presentation />
       <Presentation />
       <Presentation />

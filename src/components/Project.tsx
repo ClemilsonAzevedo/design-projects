@@ -14,11 +14,11 @@ export function Project({ ProjectDesign, ProjectDoneDate, ProjectName, ProjectTy
   return (
     <div className="flex w-[650px] gap-2 items-center justify-center p-4 my-1 rounded-lg text-base hover:bg-neutral-300/70 dark:hover:bg-neutral-800/70 mx-auto">
       <span className="font-semibold ">{ProjectName}</span>
-      <Separator className="bg-neutral-500 w-40" />
+      <Separator className="bg-neutral-700 dark:bg-neutral-300 w-40" />
       <span >{ProjectType}</span>
-      <Separator className="bg-neutral-500 h-5" orientation="vertical" />
+      <Separator className="bg-neutral-700 dark:bg-neutral-300 h-5" orientation="vertical" />
       <span >{ProjectDoneDate}</span>
-      <Separator className="bg-neutral-500 h-5" orientation="vertical" />
+      <Separator className="bg-neutral-700 dark:bg-neutral-300 h-5" orientation="vertical" />
 
       {
         ProjectRepository && <a href={ProjectRepository} target="_blank" className="size-6 hover:scale-125"><Github /></a>
