@@ -6,7 +6,7 @@ import { LineAnimateBackground } from './components/LineAnimateBackground';
 export function App() {
 
   return (
-    <main>
+    <main className='h-full w-full overflow-y-auto'>
       <div className='flex z-20'>
         <Router>
           <Routes>

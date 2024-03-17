@@ -32,7 +32,7 @@ export function SwitchThemeMode() {
   return (
     <div className="absolute right-4 top-6 flex items-center gap-2">
       <Switch className="dark:bg-foreground" onClick={toggleThemeMode} id="themeMode" />
-      <label htmlFor="themeMode">{theme}</label>
+      <label htmlFor="themeMode" className="transition">{theme}</label>
     </div>
   )
 }

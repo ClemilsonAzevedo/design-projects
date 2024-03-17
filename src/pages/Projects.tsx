@@ -1,18 +1,13 @@
-import { Project } from "@/components/Project";
-
 export function Projects() {
 
   return (
-    <section id="projects" className="overflow-y-auto h-full w-[650px] flex flex-col items-center scroll-smooth justify-center text-neutral-950 dark:text-neutral-200 z-20">
+    <section className="z-20 flex flex-wrap items-center justify-center gap-5 mt-6">
 
-      <Project
-        ProjectName="Dany Cakes"
-        ProjectType="Mobile Design"
-        ProjectDoneDate={2024}
-        ProjectDesign="#"
-        ProjectRepository=""
-      />
-
+      <div className="border border-red-500 bg-red-400 w-[450px] h-[450px] rounded-lg" />
+      <div className="border border-red-500 bg-red-400 w-[450px] h-[450px] rounded-lg" />
+      <div className="border border-red-500 bg-red-400 w-[450px] h-[450px] rounded-lg" />
+      <div className="border border-red-500 bg-red-400 w-[450px] h-[450px] rounded-lg" />
+      <div className="border border-red-500 bg-red-400 w-[450px] h-[450px] rounded-lg" />
 
     </section>
   )
