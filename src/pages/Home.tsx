@@ -1,48 +1,50 @@
+import { Footer } from "@/components/Footer";
 import { Project } from "@/components/Project";
 
 export function Home() {
 
   return (
-    <section className="overflow-y-auto h-full w-[650px] flex flex-col items-center scroll-smooth justify-center text-neutral-950 dark:text-neutral-200 z-20">
+    <section className="z-20 h-full grid grid-rows-[1fr_64px] place-items-center mx-auto">
 
-      <Project
-        ProjectName="Dany Cakes"
-        ProjectType="Mobile Design"
-        ProjectDoneDate={2024}
-        ProjectDesign="#"
-        ProjectRepository=""
-      />
-      <Project
-        ProjectName="Login Template"
-        ProjectType="Desktop Design"
-        ProjectDoneDate={2020}
-        ProjectDesign="#"
-        ProjectRepository="#"
-      />
+      <div>
+        <Project
+          ProjectName="Dany Cakes"
+          ProjectType="Mobile Design"
+          ProjectDoneDate={2024}
+          ProjectDesign="#"
+          ProjectRepository=""
+        />
+        <Project
+          ProjectName="Login Template"
+          ProjectType="Desktop Design"
+          ProjectDoneDate={2020}
+          ProjectDesign="#"
+          ProjectRepository="#"
+        />
+        <Project
+          ProjectName="Dany Cakes"
+          ProjectType="Mobile Design"
+          ProjectDoneDate={2024}
+          ProjectDesign="#"
+          ProjectRepository=""
+        />
+        <Project
+          ProjectName="Dany Cakes"
+          ProjectType="Mobile Design"
+          ProjectDoneDate={2024}
+          ProjectDesign="#"
+          ProjectRepository=""
+        />
+        <Project
+          ProjectName="Login Template"
+          ProjectType="Desktop Design"
+          ProjectDoneDate={2020}
+          ProjectDesign="#"
+          ProjectRepository="#"
+        />
+      </div>
 
-      <Project
-        ProjectName="Dany Cakes"
-        ProjectType="Mobile Design"
-        ProjectDoneDate={2024}
-        ProjectDesign="#"
-        ProjectRepository=""
-      />
-
-      <Project
-        ProjectName="Dany Cakes"
-        ProjectType="Mobile Design"
-        ProjectDoneDate={2024}
-        ProjectDesign="#"
-        ProjectRepository=""
-      />
-
-      <Project
-        ProjectName="Login Template"
-        ProjectType="Desktop Design"
-        ProjectDoneDate={2020}
-        ProjectDesign="#"
-        ProjectRepository="#"
-      />
+      <Footer />
     </section>
   )
 }

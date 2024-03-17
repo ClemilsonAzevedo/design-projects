@@ -7,7 +7,7 @@ export function App() {
 
   return (
     <main className='h-full w-full overflow-y-auto'>
-      <div className='flex z-20'>
+      <div className='flex z-20 h-full'>
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />

@@ -12,7 +12,7 @@ interface ProjectProps {
 export function Project({ ProjectDesign, ProjectDoneDate, ProjectName, ProjectType, ProjectRepository }: ProjectProps) {
 
   return (
-    <div className="flex min-w-full gap-2 items-center p-4 my-1 rounded-lg text-base hover:bg-neutral-300/70 dark:hover:bg-neutral-800/70 justify-center ">
+    <div className="flex w-[650px] gap-2 items-center justify-center p-4 my-1 rounded-lg text-base hover:bg-neutral-300/70 dark:hover:bg-neutral-800/70 mx-auto">
       <span className="font-semibold ">{ProjectName}</span>
       <Separator className="bg-neutral-500 w-40" />
       <span >{ProjectType}</span>

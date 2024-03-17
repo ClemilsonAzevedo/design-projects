@@ -9,16 +9,14 @@ export function Header() {
   const date = dayjs(Date.now()).format('DD / MM / YYYY')
 
   return (
-    <div className="flex w-full justify-center items-center relative z-20"
+    <div className="relative z-20"
     >
-      <header className="flex items-center justify-center font-medium gap-5 w-full"
-      >
+      <header className="flex items-center justify-center font-medium gap-5">
 
         <span className="flex items-center gap-2"
-        ><Calendar size={20} />{date}</span>
+        ><Calendar className="fill-neutral-50 dark:fill-neutral-950" size={20} />{date}</span>
 
-        <nav className="py-4 px-5 rounded-full bg-neutral-950 dark:bg-neutral-100 flex items-center justify-center gap-4 text-neutral-50 dark:text-neutral-950"
-        >
+        <nav className="p-5 rounded-full bg-neutral-950 dark:bg-neutral-100 flex items-center justify-center gap-5 text-neutral-50 dark:text-neutral-950">
           <a
             href="/"
             target="_self"
@@ -67,7 +65,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center justify-center gap-2"
-        ><Clock size={20} /><span className="w-16"
+        ><Clock className="fill-neutral-50 dark:fill-neutral-950" size={20} /><span className="w-16"
         >{hoursOfTheDay()}</span></div>
       </header>
       <SwitchThemeMode />
