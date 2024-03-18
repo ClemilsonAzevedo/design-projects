@@ -11,7 +11,7 @@ export function Header() {
   return (
     <div className="relative z-20 w-full max-md:h-max max-md:mt-10"
     >
-      <header className="flex items-center  justify-center font-medium gap-5 max-md:flex-col ">
+      <header className="flex items-center justify-center font-medium gap-5 max-md:flex-col max-md:-mt-4">
 
         <span className="flex items-center gap-2 max-md:hidden"
         ><Calendar className="fill-neutral-50 dark:fill-neutral-950" size={20} />{date}</span>
