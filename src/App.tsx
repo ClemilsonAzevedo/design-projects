@@ -5,6 +5,7 @@ import {
 import { Home } from "./pages/Home";
 import { Projects } from "./pages/Projects";
 import { LineAnimateBackground } from './components/LineAnimateBackground';
+import ErrorPage from "./components/error-page";
 
 export function App() {
 
@@ -12,11 +13,13 @@ export function App() {
     {
       path: "/",
       element: <Home />,
+      errorElement: <ErrorPage />,
     },
 
     {
       path: "/projects",
       element: <Projects />,
+      errorElement: <ErrorPage />,
     },
   ]);
 
