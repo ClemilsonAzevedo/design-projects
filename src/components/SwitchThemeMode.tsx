@@ -12,7 +12,7 @@ export function SwitchThemeMode() {
     const observer = new MutationObserver(mutations => {
       mutations.forEach(mutation => {
         if (mutation.attributeName === 'class') {
-          if (mutation.oldValue === '' && htmlClasses.contains('dark')) {
+          if (htmlClasses.contains('dark')) {
             setTheme(<Moon />);
           } else {
             setTheme(<Sun />);
