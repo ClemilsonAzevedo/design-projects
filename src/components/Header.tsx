@@ -35,7 +35,7 @@ export function Header() {
 
           <a
             href="#"
-            className="max-md:hidden"
+            className="max-sm:hidden"
           >
             <Avatar className="rounded-full h-10 w-10 p-1 bg-primary-foreground text-foreground font-bold"
             >

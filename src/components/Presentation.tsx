@@ -1,7 +1,7 @@
 export function Presentation() {
 
   return (
-    <figure className="rounded-lg cursor-pointer w-full">
+    <figure className="rounded-lg cursor-pointer w-full max-md:w-52 max-md:flex-grow">
       <img
         src="https://github.com/clemilsonazevedo.png"
         alt=""
