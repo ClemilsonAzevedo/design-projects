@@ -30,8 +30,8 @@ export function SwitchThemeMode() {
   }, []);
 
   return (
-    <div className="absolute right-4 top-6 flex items-center gap-2">
-      <Switch className="dark:bg-foreground" onClick={toggleThemeMode} id="themeMode" />
+    <div className="absolute flex items-center gap-2 max-md:-top-8 right-5 top-1/2 -translate-y-1/2 max-md:right-5 max-alternateLg:top-2">
+      <Switch className="dark:bg-foreground max-xl:hidden" onClick={toggleThemeMode} id="themeMode" />
       <label htmlFor="themeMode" className="transition">{theme}</label>
     </div>
   )

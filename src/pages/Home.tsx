@@ -4,7 +4,7 @@ import { Project } from "@/components/Project";
 export function Home() {
 
   return (
-    <section className="z-20 h-full grid grid-rows-[1fr_64px] place-items-center mx-auto">
+    <section className="z-20 h-full grid grid-rows-[1fr_64px] place-items-center w-full">
 
       <div>
         <Project

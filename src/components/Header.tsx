@@ -9,11 +9,11 @@ export function Header() {
   const date = dayjs(Date.now()).format('DD / MM / YYYY')
 
   return (
-    <div className="relative z-20"
+    <div className="relative z-20 w-full max-md:h-max max-md:mt-10"
     >
-      <header className="flex items-center justify-center font-medium gap-5">
+      <header className="flex items-center  justify-center font-medium gap-5 max-md:flex-col ">
 
-        <span className="flex items-center gap-2"
+        <span className="flex items-center gap-2 max-md:hidden"
         ><Calendar className="fill-neutral-50 dark:fill-neutral-950" size={20} />{date}</span>
 
         <nav className="p-5 rounded-full bg-neutral-950 dark:bg-neutral-100 flex items-center justify-center gap-5 text-neutral-50 dark:text-neutral-950">
@@ -35,6 +35,7 @@ export function Header() {
 
           <a
             href="#"
+            className="max-md:hidden"
           >
             <Avatar className="rounded-full h-10 w-10 p-1 bg-primary-foreground text-foreground font-bold"
             >
@@ -64,9 +65,13 @@ export function Header() {
           </a>
         </nav>
 
-        <div className="flex items-center justify-center gap-2"
-        ><Clock className="fill-neutral-50 dark:fill-neutral-950" size={20} /><span className="w-16"
-        >{hoursOfTheDay()}</span></div>
+        <div className="flex items-center justify-center gap-2 max-md:absolute max-md:-bottom-10 max-md:right-5">
+          <Clock className="fill-neutral-50 dark:fill-neutral-950 max-sm:hidden" size={20} />
+          <span className="w-16">{hoursOfTheDay()}</span>
+        </div>
+
+        <span className="flex items-center gap-2 absolute -bottom-10 left-4 md:hidden"
+        ><Calendar className="fill-neutral-50 dark:fill-neutral-950 max-sm:hidden" size={20} />{date}</span>
       </header>
       <SwitchThemeMode />
     </div>

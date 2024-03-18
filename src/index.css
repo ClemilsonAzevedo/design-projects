@@ -71,6 +71,7 @@
     @apply border-border;
     @apply transition;
     @apply duration-75;
+    @apply antialiased;
     font-family: "Poppins", sans-serif;
   }
 

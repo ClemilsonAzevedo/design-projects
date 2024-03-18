@@ -10,8 +10,8 @@ export function App() {
       <div className='flex z-20 h-full'>
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/" Component={Home} />
+            <Route path="/projects" Component={Projects} />
           </Routes>
         </Router>
       </div>
