@@ -3,7 +3,6 @@ import { hoursOfTheDay } from "@/utils/hoursOfTheDay";
 import { Calendar, Clock, FolderOpen, Github, Home, X } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { SwitchThemeMode } from "./SwitchThemeMode";
-import { Link } from "react-router-dom";
 
 export function Header() {
 
