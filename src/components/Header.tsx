@@ -3,6 +3,7 @@ import { hoursOfTheDay } from "@/utils/hoursOfTheDay";
 import { Calendar, Clock, FolderOpen, Github, Home, X } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { SwitchThemeMode } from "./SwitchThemeMode";
+import { Link } from "react-router-dom";
 
 export function Header() {
 
@@ -17,24 +18,24 @@ export function Header() {
         ><Calendar className="fill-neutral-50 dark:fill-neutral-950" size={20} />{date}</span>
 
         <nav className="p-5 rounded-full bg-neutral-950 dark:bg-neutral-100 flex items-center justify-center gap-5 text-neutral-50 dark:text-neutral-950">
-          <a
-            href="/"
+          <Link
+            to="/"
             target="_self"
             className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 "
           >
             <Home size={24} />
-          </a>
+          </Link>
 
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             target="_self"
             className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 "
           >
             <FolderOpen size={24} />
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="#"
             className="max-sm:hidden"
           >
             <Avatar className="rounded-full h-10 w-10 p-1 bg-primary-foreground text-foreground font-bold"
@@ -46,23 +47,23 @@ export function Header() {
               />
               <AvatarFallback>C.A</AvatarFallback>
             </Avatar>
-          </a>
+          </Link>
 
-          <a
-            href="https://twitter.com/_ClemAzevedo_"
+          <Link
+            to="https://twitter.com/_ClemAzevedo_"
             target="_blank"
             className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 "
           >
             <X size={24} />
-          </a>
+          </Link>
 
-          <a
-            href="https://github.com/clemilsonazevedo"
+          <Link
+            to="https://github.com/clemilsonazevedo"
             target="_blank"
             className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 "
           >
             <Github size={24} />
-          </a>
+          </Link>
         </nav>
 
         <div className="flex items-center justify-center gap-2 max-md:absolute max-md:-bottom-10 max-md:right-5">
