@@ -180,7 +180,7 @@ export function LineAnimateBackground() {
         >
           <stop stopColor="#e11d48" stopOpacity="0" />
           <stop stopColor="#e11d48" />
-          <stop offset="1" stopColor="#f142b6" stopOpacity="0" />
+          <stop offset="1" stopColor="#e11d48" stopOpacity="0" />
         </motion.linearGradient>
 
         <linearGradient
