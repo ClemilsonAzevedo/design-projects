@@ -1,12 +1,6 @@
 import { Figma, Github } from "lucide-react";
 import { Separator } from "./ui/separator";
-interface ProjectProps {
-  ProjectName: string;
-  ProjectType: string;
-  ProjectDoneDate: number;
-  ProjectDesign: string
-  ProjectRepository?: string;
-}
+import { ProjectProps } from '../utils/projectType'
 
 export function Project({ ProjectDesign, ProjectDoneDate, ProjectName, ProjectType, ProjectRepository }: ProjectProps) {
 
