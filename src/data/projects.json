@@ -3,45 +3,48 @@
     "id": 1,
     "ProjectName": "Web Design Portfolio",
     "ProjectType": "Fullstack Design",
-    "imageUrl": "https://github.com/clemilsonazevedo/webportfolio.png",
     "ProjectDesign": "https://www.figma.com/file/DoduxMpBM2AovMZW7zyqoW/Web-Design-Projects?type=design&node-id=0%3A1&mode=design&t=8hcQSIkEtveQwo0i-1",
     "ProjectRepository": "https://github.com/ClemilsonAzevedo/webDesignPortfolio",
     "ProjectDoneDate": 2024
   },
-  "Marketplace": {
+  "The-Store": {
     "id": 2,
-    "ProjectName": "Marketplace",
+    "ProjectName": "The Store",
     "ProjectType": "Fullstack Design",
-    "imageUrl": "https://github.com/clemilsonazevedo/webportfolio.png",
-    "ProjectDesign": "https://figma.com/clemilsonazevedo",
-    "ProjectRepository": "https://github.com/Dany Cakes",
+    "ProjectDesign": "https://www.figma.com/file/WHtAEKZFjBcS5sYiieO5ne/The-Store?type=design&node-id=4%3A2&mode=design&t=knom1afLoEReRiRA-1",
+    "ProjectRepository": "https://github.com/ClemilsonAzevedo/TheStore",
     "ProjectDoneDate": 2024
   },
   "Blog": {
     "id": 3,
-    "ProjectName": "Blog",
-    "ProjectType": "Full Design",
-    "imageUrl": "https://github.com/clemilsonazevedo/webportfolio.png",
-    "ProjectDesign": "https://figma.com/clemilsonazevedo",
-    "ProjectRepository": "https://github.com/Dany Cakes",
+    "ProjectName": "Personal Blog",
+    "ProjectType": "Web Design",
+    "ProjectDesign": "https://www.figma.com/file/qPoNXNa2wFInTNjbDokUVN/Clems'Blog?type=design&node-id=0%3A1&mode=design&t=YMwa4d20Qq2GZ5Cr-1",
+    "ProjectRepository": "",
     "ProjectDoneDate": 2023
   },
   "Dany Cakes": {
     "id": 4,
     "ProjectName": "Dany Cakes",
     "ProjectType": "Desktop Design",
-    "imageUrl": "https://github.com/clemilsonazevedo/webportfolio.png",
-    "ProjectDesign": "https://www.figma.com/file/tInHhgh7Ya8juYozh8PNHH/Dany-Cake?type=design&node-id=1%3A10&mode=design&t=8hcQSIkEtveQwo0i-1",
-    "ProjectRepository": "https://github.com/Dany Cakes",
+    "ProjectDesign": "https://www.figma.com/file/tInHhgh7Ya8juYozh8PNHH/Dany-Cake?type=design&node-id=40%3A13&mode=design&t=V38soLq0AR5Q52PI-1",
+    "ProjectRepository": "",
     "ProjectDoneDate": 2023
   },
   "Bites": {
     "id": 5,
     "ProjectName": "Bites",
     "ProjectType": "Web Desktop Design",
-    "imageUrl": "https://github.com/clemilsonazevedo/webportfolio.png",
-    "ProjectDesign": "https://figma.com/clemilsonazevedo",
-    "ProjectRepository": "https://github.com/Dany Cakes",
+    "ProjectDesign": "https://www.figma.com/file/dvh28OYSZMfOsyWMmtck1U/BITES?type=design&node-id=0%3A1&mode=design&t=BNb7LQzzUgWuVa1r-1",
+    "ProjectRepository": "",
     "ProjectDoneDate": 2023
+  },
+  "Papyrus": {
+    "id": 6,
+    "ProjectName": "Papyrus",
+    "ProjectType": "Web Desktop Design",
+    "ProjectDesign": "https://www.figma.com/file/RFF7hi7WcrfHKuHFBVzih2/Papyrus-Design?type=design&node-id=3%3A5&mode=design&t=AK61Kb2akYbVArrk-1",
+    "ProjectRepository": "",
+    "ProjectDoneDate": 2022
   }
 }

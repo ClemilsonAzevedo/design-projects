@@ -19,10 +19,22 @@ export function Project({ ProjectDesign, ProjectDoneDate, ProjectName, ProjectTy
       <Separator className="bg-neutral-700 dark:bg-neutral-300 h-5" orientation="vertical" />
 
       {
-        ProjectRepository && <a href={ProjectRepository} target="_blank" className="size-6 hover:scale-125"><Github className="max-sm:w-4 max-md:w-5" /></a>
+        ProjectRepository
+        &&
+        <a
+          href={ProjectRepository}
+          target="_blank"
+          className="size-6 hover:scale-125">
+          <Github className="max-sm:w-4 max-md:w-5" />
+        </a>
       }
 
-      <a href={ProjectDesign} target="_blank" className="size-6 hover:scale-125"><Figma className="max-sm:w-4 max-md:w-5" /></a>
+      <a
+        href={ProjectDesign}
+        target="_blank"
+        className="size-6 hover:scale-125">
+        <Figma className="max-sm:w-4 max-md:w-5" />
+      </a>
     </div>
   )
 }
