@@ -1,10 +1,10 @@
 
-# Design Projects Portfolio
+# Design Portfolio
 
 
 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](public/WebDesignCover.png)
 
 
 ## 🚀 Sobre o Projecto
