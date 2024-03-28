@@ -15,24 +15,8 @@
     "ProjectRepository": "https://github.com/ClemilsonAzevedo/TheStore",
     "ProjectDoneDate": 2024
   },
-  "Blog": {
-    "id": 3,
-    "ProjectName": "Personal Blog",
-    "ProjectType": "Web Design",
-    "ProjectDesign": "https://www.figma.com/file/qPoNXNa2wFInTNjbDokUVN/Clems'Blog?type=design&node-id=0%3A1&mode=design&t=YMwa4d20Qq2GZ5Cr-1",
-    "ProjectRepository": "",
-    "ProjectDoneDate": 2023
-  },
-  "Dany Cakes": {
-    "id": 4,
-    "ProjectName": "Dany Cakes",
-    "ProjectType": "Desktop Design",
-    "ProjectDesign": "https://www.figma.com/file/tInHhgh7Ya8juYozh8PNHH/Dany-Cake?type=design&node-id=40%3A13&mode=design&t=V38soLq0AR5Q52PI-1",
-    "ProjectRepository": "",
-    "ProjectDoneDate": 2023
-  },
   "Bites": {
-    "id": 5,
+    "id": 3,
     "ProjectName": "Bites",
     "ProjectType": "Web Desktop Design",
     "ProjectDesign": "https://www.figma.com/file/dvh28OYSZMfOsyWMmtck1U/BITES?type=design&node-id=0%3A1&mode=design&t=BNb7LQzzUgWuVa1r-1",
@@ -40,7 +24,7 @@
     "ProjectDoneDate": 2023
   },
   "Papyrus": {
-    "id": 6,
+    "id": 4,
     "ProjectName": "Papyrus",
     "ProjectType": "Web Desktop Design",
     "ProjectDesign": "https://www.figma.com/file/RFF7hi7WcrfHKuHFBVzih2/Papyrus-Design?type=design&node-id=3%3A5&mode=design&t=AK61Kb2akYbVArrk-1",
