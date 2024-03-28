@@ -33,20 +33,15 @@ export function Header() {
             <FolderOpen size={24} />
           </a>
 
-          <a
-            href="#"
-            className="max-sm:hidden"
+          <Avatar className="max-sm:hidden rounded-full h-12 w-12 p-px bg-primary-foreground text-foreground font-bold"
           >
-            <Avatar className="rounded-full h-10 w-10 p-1 bg-primary-foreground text-foreground font-bold"
-            >
-              <AvatarImage
-                src="https://github.com/clemilsonazevedo.png"
-                alt="@ClemilsonAzevedo"
-                className="rounded-full"
-              />
-              <AvatarFallback>C.A</AvatarFallback>
-            </Avatar>
-          </a>
+            <AvatarImage
+              src="https://github.com/clemilsonazevedo.png"
+              alt="@ClemilsonAzevedo"
+              className="rounded-full"
+            />
+            <AvatarFallback>C.A</AvatarFallback>
+          </Avatar>
 
           <a
             href="https://twitter.com/_ClemAzevedo_"

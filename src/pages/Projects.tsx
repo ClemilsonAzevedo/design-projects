@@ -9,10 +9,11 @@ export function Projects() {
     <section className="z-20 overflow-y-auto overflow-x-hidden w-full grid grid-cols-3 gap-5 max-md:flex max-md:flex-wrap max-md:mt-10">
       {projectsImages ? (
         <>
-          {Object.values(projectsImages).map((project) => (
+          {Object.values(projectsImages).map(({ id, designUrl, imageUrl }) => (
             <Presentation
-              key={project.id}
-              ImageUrl={project.imageUrl}
+              designUrl={designUrl}
+              key={id}
+              ImageUrl={imageUrl}
             />
           ))}
         </>
