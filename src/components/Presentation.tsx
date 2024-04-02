@@ -6,8 +6,8 @@ interface PresentationProps {
 export function Presentation({ ImageUrl, designUrl }: PresentationProps) {
 
   return (
-    <a href={designUrl} target="_blank" >
-      <figure className="rounded-lg cursor-pointer w-full max-md:w-52 max-md:flex-grow bg-foreground">
+    <a href={designUrl} target="_blank" className="flex flex-grow" >
+      <figure className="rounded-lg cursor-pointer w-full max-md:w-52 max-md:flex-grow bg-foreground justify-center">
         <img
           src={ImageUrl}
           alt="Project Image"

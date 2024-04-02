@@ -6,7 +6,7 @@ import { Loader2 } from "lucide-react";
 export function Projects() {
 
   return (
-    <section className="z-20 overflow-y-auto overflow-x-hidden w-full grid grid-cols-3 gap-5 max-md:flex max-md:flex-wrap max-md:mt-10">
+    <section className="z-20 overflow-y-auto overflow-x-hidden w-full grid grid-cols-3 gap-5 max-md:flex max-md:flex-wrap max-md:mt-10 max-sm:justify-center px-5">
       {projectsImages ? (
         <>
           {Object.values(projectsImages).map(({ id, designUrl, imageUrl }) => (
@@ -18,7 +18,7 @@ export function Projects() {
           ))}
         </>
       ) : (
-        <Loader2 className="animate-spin" size={24} />
+        <Loader2 className="animate-spin grid place-items-center" size={24} />
       )}
     </section>
   )
