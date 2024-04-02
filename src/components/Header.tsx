@@ -3,6 +3,7 @@ import { hoursOfTheDay } from "@/utils/hoursOfTheDay";
 import { Calendar, Clock, FolderOpen, Github, Home, X } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { SwitchThemeMode } from "./SwitchThemeMode";
+import { Profile } from "./Profile";
 
 export function Header() {
 
@@ -33,15 +34,7 @@ export function Header() {
             <FolderOpen size={24} />
           </a>
 
-          <Avatar className="max-sm:hidden rounded-full h-12 w-12 p-px bg-primary-foreground text-foreground font-bold"
-          >
-            <AvatarImage
-              src="https://github.com/clemilsonazevedo.png"
-              alt="@ClemilsonAzevedo"
-              className="rounded-full"
-            />
-            <AvatarFallback>C.A</AvatarFallback>
-          </Avatar>
+            <Profile />
 
           <a
             href="https://twitter.com/_ClemAzevedo_"
@@ -52,7 +45,7 @@ export function Header() {
           </a>
 
           <a
-            href="https://github.com/clemilsonazevedo"
+            href="https://github.com/ClemilsonAzevedo/design-projects"
             target="_blank"
             className="p-2 hover:bg-neutral-800/70 dark:hover:bg-neutral-300/70 rounded-full hover:scale-125 "
           >

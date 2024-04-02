@@ -21,6 +21,7 @@ export function App() {
       element: <Projects />,
       errorElement: <ErrorPage />,
     },
+
   ]);
 
   return (
