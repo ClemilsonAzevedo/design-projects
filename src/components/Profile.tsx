@@ -1,6 +1,6 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@radix-ui/react-avatar";
-import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogDescription, DialogFooter } from "./ui/dialog";
-import { GithubIcon, Instagram, Rocket, X } from "lucide-react";
+import { Dialog, DialogTrigger, DialogContent, DialogTitle } from "./ui/dialog";
+import { GithubIcon, Instagram, X } from "lucide-react";
 import { Badge } from "./ui/badge";
 import { Separator } from "./ui/separator";
 
