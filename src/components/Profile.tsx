@@ -37,7 +37,7 @@ export function Profile() {
               className="p-2 flex items-center justify-start gap-2 hover:text-red-400">
               <GithubIcon size={20}
               />
-              <span>Clemilson de Azevedo</span>
+              <span>Clemilson Azevedo</span>
             </a>
 
             <a
@@ -46,7 +46,7 @@ export function Profile() {
               className="p-2 flex items-center justify-start gap-2 hover:text-red-400">
               <X size={20}
               />
-              <span>@_ClemilsonAzevedo_</span>
+              <span>@_ClemAzevedo_</span>
             </a>
 
             <a
@@ -71,22 +71,22 @@ export function Profile() {
           <div>
             <h3 className="font-semibold text-base">Skills</h3>
             <Separator className="mb-4 bg-muted-foreground" />
-            <ul className="space-y-4">
-              <li className="space-x-1">
+            <ul className="space-y-2">
+              <li className="space-x-1 space-y-1">
                 <span className="font-medium">Design: </span>
                 <Badge>#Figma</Badge>
                 <Badge>#Gimp</Badge>
                 <Badge>#Photoshop</Badge>
               </li>
 
-              <li className="space-x-1">
+              <li className="space-x-1 space-y-1">
                 <span className="font-medium">Frontend:</span>
                 <Badge>#React</Badge>
                 <Badge>#Next.JS</Badge>
                 <Badge>#Vite</Badge>
               </li>
 
-              <li className="space-x-1">
+              <li className="space-x-1 space-y-1">
                 <span className="font-medium">Backend:</span>
                 <Badge>#Nodejs</Badge>
                 <Badge>#Fastify</Badge>
