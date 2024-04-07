@@ -57,7 +57,7 @@ export function SwitchThemeMode() {
     return () => observer.disconnect();
   }, []);
 
- const handleToggleTheme = () => {
+  const handleToggleTheme = () => {
     if (isDarkTheme) {
       setTheme(<Sun />);
       setIsDarkTheme(false);
@@ -72,7 +72,7 @@ export function SwitchThemeMode() {
 
   return (
     <div className="absolute flex items-center gap-2 max-md:-top-8 right-5 top-1/2 -translate-y-1/2 max-md:right-5 max-alternateLg:top-2">
-      <Switch className="dark:bg-foreground max-xl:hidden -rotate-45" checked={isDarkTheme} onClick={handleToggleTheme} id="themeMode" />
+      <Switch className="dark:bg-foreground max-xl:hidden rotate-90" checked={isDarkTheme} onClick={handleToggleTheme} id="themeMode" />
       <label htmlFor="themeMode" className="transition">{theme}</label>
     </div>
   )
