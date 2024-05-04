@@ -26,8 +26,14 @@
 		}
 	},
 	"linter": {
+		"ignore": [
+			"forbiden"
+		],
 		"enabled": true,
 		"rules": {
+			"style": {
+				"noNonNullAssertion": "off"
+			},
 			"recommended": true
 		}
 	}

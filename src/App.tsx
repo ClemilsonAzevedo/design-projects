@@ -1,8 +1,8 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Home } from './pages/Home'
-import { Projects } from './pages/Projects'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { LineAnimateBackground } from './components/LineAnimateBackground'
 import ErrorPage from './components/error-page'
+import { Home } from './pages/Home'
+import { Projects } from './pages/Projects'
 
 export function App() {
 	const router = createBrowserRouter([
