@@ -1,34 +1,34 @@
 {
-  "Web-Design-Portfolio": {
-    "id": 1,
-    "ProjectName": "Web Design Portfolio",
-    "ProjectType": "Fullstack Design",
-    "ProjectDesign": "https://www.figma.com/file/DoduxMpBM2AovMZW7zyqoW/Web-Design-Projects?type=design&node-id=0%3A1&mode=design&t=8hcQSIkEtveQwo0i-1",
-    "ProjectRepository": "https://github.com/ClemilsonAzevedo/webDesignPortfolio",
-    "ProjectDoneDate": 2024
-  },
-  "Login-Ui": {
-    "id": 2,
-    "ProjectName": "Login-Ui",
-    "ProjectType": "Fullstack Design",
-    "ProjectDesign": "https://www.figma.com/file/nzLOlJdVHcfmjxEUOGcxZX/Login-Template-Clemilson?type=design&node-id=36%3A2&mode=design&t=ExwYL6X2AbwaUTCJ-1",
-    "ProjectRepository": "",
-    "ProjectDoneDate": 2024
-  },
-  "Bites": {
-    "id": 3,
-    "ProjectName": "Bites",
-    "ProjectType": "Web Desktop Design",
-    "ProjectDesign": "https://www.figma.com/file/dvh28OYSZMfOsyWMmtck1U/BITES?type=design&node-id=0%3A1&mode=design&t=BNb7LQzzUgWuVa1r-1",
-    "ProjectRepository": "",
-    "ProjectDoneDate": 2023
-  },
-  "Papyrus": {
-    "id": 4,
-    "ProjectName": "Papyrus",
-    "ProjectType": "Web Desktop Design",
-    "ProjectDesign": "https://www.figma.com/file/RFF7hi7WcrfHKuHFBVzih2/Papyrus-Design?type=design&node-id=3%3A5&mode=design&t=AK61Kb2akYbVArrk-1",
-    "ProjectRepository": "",
-    "ProjectDoneDate": 2022
-  }
+	"Web-Design-Portfolio": {
+		"id": 1,
+		"ProjectName": "Web Design Portfolio",
+		"ProjectType": "Fullstack Design",
+		"ProjectDesign": "https://www.figma.com/file/DoduxMpBM2AovMZW7zyqoW/Web-Design-Projects?type=design&node-id=0%3A1&mode=design&t=8hcQSIkEtveQwo0i-1",
+		"ProjectRepository": "https://github.com/ClemilsonAzevedo/webDesignPortfolio",
+		"ProjectDoneDate": 2024
+	},
+	"Login-Ui": {
+		"id": 2,
+		"ProjectName": "Login-Ui",
+		"ProjectType": "Fullstack Design",
+		"ProjectDesign": "https://www.figma.com/file/nzLOlJdVHcfmjxEUOGcxZX/Login-Template-Clemilson?type=design&node-id=36%3A2&mode=design&t=ExwYL6X2AbwaUTCJ-1",
+		"ProjectRepository": "",
+		"ProjectDoneDate": 2024
+	},
+	"Bites": {
+		"id": 3,
+		"ProjectName": "Bites",
+		"ProjectType": "Web Desktop Design",
+		"ProjectDesign": "https://www.figma.com/file/dvh28OYSZMfOsyWMmtck1U/BITES?type=design&node-id=0%3A1&mode=design&t=BNb7LQzzUgWuVa1r-1",
+		"ProjectRepository": "",
+		"ProjectDoneDate": 2023
+	},
+	"Papyrus": {
+		"id": 4,
+		"ProjectName": "Papyrus",
+		"ProjectType": "Web Desktop Design",
+		"ProjectDesign": "https://www.figma.com/file/RFF7hi7WcrfHKuHFBVzih2/Papyrus-Design?type=design&node-id=3%3A5&mode=design&t=AK61Kb2akYbVArrk-1",
+		"ProjectRepository": "",
+		"ProjectDoneDate": 2022
+	}
 }
